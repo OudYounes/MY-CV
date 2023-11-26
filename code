@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Personal CV Website - Easy </title>
+			<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<img src="rhul-logo.png" class="logo">
+					<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#About">About Me</a></li>
+							<li><a href="#WorkExp">Work Experience</a></li>
+							<li><a href="#About">Personal Project</a></li>
+							<li><a href="#About">Certificates</a></li>
+							<li><a href="#">Languages</a></li>
+					</ul>
+				</nav>
+				<div class="header-text">
+					<h1><span>Younes</span> Oudrhiri</h1>	
+					<p><i><b>Economics</b> and <b>Mathematics</b> Student</i></p>
+				</div>
+			</div>
+		</div>
+<!-------------------About--------------------------->
+		<div id="About">
+			<div class="container">
+				<div class="row">
+					<div class="About-col-1">
+						<img src="rhul-logo.png">
+					</div>
+					<div class="About-col-2">
+						<h1 class="sub-title">About Me</h1>
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('Personal/Project')">Personal/Project</p>
+							<p class="tab-links" onclick="opentab('Languages')">Languages</p>
+							<p class="tab-links" onclick="opentab('Interests')">Interests</p>
+						</div>
+							<div class="tab-contents active-tab" id="Personal/Project">
+								<ul>
+									<li><span>Investment</span><br>Cryptocurrency trading</li>
+									<li><span>Turoring</span><br>Mathematics private classes</li>
+									<li><span>Team leading</span><br>Football team captain</li>
+								</ul>
+							</div>
+							<div class="tab-contents" id="Languages">
+								<ul>
+									<li><span>French</span><br>Native</li>
+									<li><span>English</span><br>Fluent</li>
+									<li><span>Spanish</span><br>Fluent</li>
+									<li><span>Arabic</span><br>Elementary Proficiency</li>
+								</ul>
+							</div>
+							<div class="tab-contents" id="Interests">
+								<ul>
+									<li><span>Chess</span><br>1000 elo</li>
+									<li><span>Football</span><br>Semi-pro</li>
+									<li><span>Math</span><br>Math student</li>
+									<li><span>Finance</span><br>no experience</li>
+									<li><span>Coding</span><br>Python and HTML basis</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<!---------------------------------WorkExp---------------------------------->
+<div id="WorkExp">
+	<div class="container">
+		<h1 class="sub-title">Work Experience</h1>
+		<div class="WorkExp-list">
+			<div>
+				<h2>Market Analyst</h2>
+					<div class="WorkExp-content"><p><i>Achievement/tasks</i></p>
+						<ol>
+							<li>Financial Statment</li>
+							<li>Market Stategy</li>
+							<li>Market Targetting</li>
+						</ol>
+					</div>
+				<a href="#"></a>
+			</div>
+			<div>
+				<h2>FOH Team member</h2>
+					<div class="WorkExp-content"><p><i>Achievement/tasks</i></p>
+						<ol>
+							<li>Accounting</li>
+							<li>Sales</li>
+							<li>Customer Service</li>
+						</ol>
+					</div>
+				<a href="#"></a>
+			</div>
+			<div>
+				<h2>Ice cream production</h2>
+					<div class="WorkExp-content"><p><i>Achievement/tasks</i></p>
+						<ol>
+							<li>Sales and production</li>
+							<li>Storage gestion</li>
+							<li>Customer Service</li>
+						</ol>
+					</div>
+				<a href="#"><b></b></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!---------------------------------Education-------------------------------->
+<div id="Education">
+	<div class="container">
+		<h1 class="sub-title">Education</h1>
+		<div class="Education-list">
+			<div class="Education-container">
+				<div class="card">
+					<div class="front">
+						<img src="ECOLE-MOLIERE.jpg">
+					</div>
+				<div class="back">
+					<h2>Primary School</h2>
+					<ul>
+						<li>Ecole Moliere of Casablanca</li>
+						<li>09/2007 - 06/2012</li>
+						<li>Morocco</li>
+					</ul>
+				</div>
+				</div>			
+			</div>
+			<div class="Education-container">
+				<div class="card">
+				<div class="front">
+					<img src="Lfim.jpg">
+				</div>
+				<div class="back">
+					<h2>Middle School/Hight School</h2>
+					<ul>
+						<li>Lycée Français de Malaga</li>
+						<li>09/2012 - 06/2021</li>
+						<li>Spain</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			<div class="Education-container">
+				<div class="card">
+				<div class="front">
+					<img src="rhul.jpg">
+				</div>
+				<div class="back">
+					<h2>Bsc Economics and Math</h2>
+					<ul>
+						<li>Royal Holloway University of London</li>
+						<li>09/2021 - Present</li>
+						<li>Kingdoms</li>
+					</ul>
+				</div>		
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+<!--------------------------------------contacts----------------------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				</div>
+				     <!-- Introduced Table -->
+					 <table class="contact-table">
+						<thead>
+							<tr>
+								<th>Platform</th>
+								<th>Contact</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="mailto:oudrhiriyouneslfim@gmail.com">oudrhiriyouneslfim@gmail.com</a></td>
+								<td>Email</td>
+							</tr>
+							<tr>
+								<td><a href="tel:07387381217">07387381217</a></td>
+								<td>Phone</td>
+							</tr>
+							<tr>
+								<td><a href="https://www.linkedin.com/in/younes-oudrhiri-224234225/">Linkedin</a></td>
+								<td>Linkedin</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-------------------------------------script--------------------------->
+		<script>
+
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-contents");
+
+			function opentab(tabname){
+				for(tablink of tablinks){
+					tablink.classList.remove("active-link")
+				}
+				for(tabcontent of tabcontents){
+					tabcontent.classList.remove("active-tab")
+				}
+				event.currentTarget.classList.add("active-link");
+				document.getElementById(tabname).classList.add("active-tab");
+			}
+
+		</script>
+		</body>
+	</html> 
